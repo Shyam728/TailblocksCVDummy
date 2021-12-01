@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#logo{
+    height:2.4rem;
+    border-radius:35px;
+}
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 11;
+}
+header span {
+    color: #fff;
+}
+
+nav a {
+    cursor: pointer;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.bgc-dark {
+    background-color: black;
+}
+
+
+
+/* Hero */
+.hero{
+    padding-top:4rem ;
+}
+.bgc-blue {
+    background: linear-gradient(24deg, rgb(7, 7, 32), transparent);
+}
+
+.bgc-blue h1 {
+    color: white;
+}
+
+.font-color {
+    color: black;
+    font-weight: 600;
+}
+
+/* Content */
+.content {
+    background: linear-gradient(24deg, rgb(7, 7, 32), transparent);
+    color: white
+}
+
+.content p {
+    color: white
+}
+.color-dark{
+    color: black;
+}
+/* Contacts */
+
+.contact {
+    background: linear-gradient( rgb(119, 119, 182),rgb(93, 93, 106),rgb(7, 7, 32));
+    color: white;
+    z-index: +4;
+}
+
+.contact p {
+    color: black;
+}
+
+.contact label {
+    color: black;
+    font-weight:bold;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+.main-footer {
+    background-color: rgb(0, 21, 66);
+    
+}
